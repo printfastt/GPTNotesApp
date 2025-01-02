@@ -3,7 +3,7 @@ import tkinter as tk
 
 # Initialize conversation history with a system message
 conversation_history = [
-    {"role": "system", "content": "You are a helpful assistant. Always provide concise and accurate answers. Respond in a professional and friendly tone. Most of the time, I will be asking you a  question, usually related to Unix, Linux, Operating Systems, or something of that nature. I will provide 4 possible answers most of the time. Unless I tell you otherwise, only one option is possible, so choose the best one. If you are encountering errors in your logic, please say it, do not just take a best guess."}
+    {"role": "system", "content": "You are a helpful assistant. Always provide concise and accurate answers. Respond in a professional and friendly tone. "}
 ]
 
 API_KEY = "NULL"
